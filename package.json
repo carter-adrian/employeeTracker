@@ -1,0 +1,31 @@
+{
+  "name": "employeetracker",
+  "version": "1.0.0",
+  "description": "Tracker that allows to lookup employee information and other information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carter-adrian/employeeTracker.git"
+  },
+  "keywords": [
+    "Employee",
+    "Tracker"
+  ],
+  "author": "Adrian Carter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carter-adrian/employeeTracker/issues"
+  },
+  "homepage": "https://github.com/carter-adrian/employeeTracker#readme",
+
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^16.0.3",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.0.0",
+    "mysql2": "^3.1.0"
+  }
+}
